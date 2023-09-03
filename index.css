@@ -1,0 +1,96 @@
+#search
+{
+    width:800px;
+    height:auto;
+    position: relative;
+    left:30%;
+    padding-top:10px;
+}
+
+}
+h2{
+    color: blanchedalmond;
+    text-align: center;
+}
+#search input{
+    width:500px;
+    height:40px;
+}
+#search button{
+    color: darkgray;
+    cursor: pointer;
+    width: 100px;
+    height:40px;
+}
+button:hover {
+    background-color: green;
+}
+body{
+    background-image: url('https://cdn.marvel.com/content/1x/characters_art_mas_mob_01.jpg');
+     background-color: gray;
+    color: white;
+
+
+    
+    
+}
+li{
+    background-color: white;
+    list-style: none;
+    width:500px;
+}
+#container
+{
+    position: relative;
+    left: 30%;
+}
+#search-results
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  
+
+}
+ img{
+    width:100px;
+    height:100px;
+}
+#add-to-fav 
+{
+    width:100px;
+    height:50px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+
+}
+#add-to-fav a
+{
+text-decoration: none;
+}
+#name
+{
+    color:skyblue;
+    font-size: 15px;
+}
+
+#favourites
+{
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    width:100px;
+    height:30px;
+    background-color: grey;
+    border:2px solid grey;
+    text-align: center;
+    background-color: greenyellow;
+
+}
+#favourites a
+{
+text-decoration: none;
+}
